@@ -1,0 +1,76 @@
+body{
+    background-color: white;
+}
+h2{
+    font-size: 60px;
+    color: white;
+    background-color: palevioletred;
+    margin-top: 1%;
+    border-radius: 5px;
+}
+h3{
+    color: palevioletred;
+    margin-top: 1%;
+}
+.box{
+    width: 15px;
+    height: 200px;
+    margin: 10px;
+}
+.box1{
+    height: 2195px;
+    width: 330px;
+    background-color: palevioletred;
+    border-radius: 10px;
+    margin: 15px;
+}
+.box2{
+    width: 1330px;
+    border-radius: 10px;
+    height: 75px;
+    text-align: center;
+    margin: 10px;
+    background-color: palevioletred;
+    font-size: 20px;
+    color: red;
+}
+.box11{
+    width: 1000;
+    background-color: palevioletred;
+}
+li{
+    margin: 10px;
+    list-style: none;
+    padding: 2px;
+    font-size: 20px;
+    text-decoration: none;
+}
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20;
+}
+div{
+    color: red;
+}
+ul,li,a{
+    list-style: none;
+    text-decoration: none;
+    color: white;
+    font-size: 95%;
+    display: inline-block;
+}
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px
+}
+button{
+    background-color: palevioletred;
+    color: white;
+}
+img{
+    margin: 0.8%;
+    border-radius: 10px;
+}
+
